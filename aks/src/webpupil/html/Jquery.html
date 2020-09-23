@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script type="text/javascript" src="/aks/src/webpupil/assets/jquery-3.5.1.min.js"></script>
+  <script src="./../assets/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    
+    <div id="test_a">
+        <p>001</p>
+    </div>
+    <script>
+        $(document).ready(function () {
+            //弹出弹框且显示hello syl
+            alert('hello syl');
+        });
+        $(document).ready(function () {
+            $('#test_a').css({
+                width: '100px',
+                height: '100px',
+                'background-color': 'green',
+            })
+        })
+    </script>
     
 </body>
 </html>
