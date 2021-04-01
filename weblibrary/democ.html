@@ -31,7 +31,32 @@
         document.write('声明但未赋值,类型是:' +typeof x);
     </script>
     <script>
-        
+        //基本类型也是伪对象,都有属性和方法
+        var  c = "hello";
+        document.write((typeof c));
+        document.write(c.length);
+        //转换为字符串
+        var d = 10;
+        document.write("字符串"+d.toString());
+        //数字转字符串
+        var e = 11;
+        document.write('十进制'+e.toString());
+        //转换为数字
+        document.write("SS"+parseInt("109"));
+        //转换为Boolean
+        document.write("转布尔"+Boolean("hello javascript"));
+    </script>
+    <script>
+        //函数
+        function print() {
+            document.write("打印一句话");
+        }
+        print();
+        function sum(x,y) {
+            return x+y;
+        }
+        var symh =sum(22,33);
+        print(symh);
     </script>
 </body>
 </html>
