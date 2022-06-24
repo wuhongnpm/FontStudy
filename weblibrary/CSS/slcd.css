@@ -1,0 +1,31 @@
+.dropdown-button {
+    background-color: #4569FF;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 8px;
+}
+.dropdown:hover.dropdown-button {
+    background-color: blue;
+}
+.dropdown-menu {
+    display: none;
+    width: 160px;
+    border: 2px solid #E5F1FB;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menua a {
+    display: block;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.dropdown-menu a:hover {
+    background-color: #4569FF;
+}

@@ -1,0 +1,23 @@
+.nav {
+    height: 44px;
+    background-color: #1479D7;
+    margin: 0 100px;
+    padding: 0;
+    list-style-type: none;
+}
+.nav li {
+    height: 44px;
+    float: left;
+}
+.nav li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    line-height: 44px;
+    margin: 0 18px;
+}
+.nav li a:hover {
+    color: #14539A;
+    background-color: #CBE1ED;
+}
