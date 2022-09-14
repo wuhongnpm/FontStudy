@@ -1,4 +1,4 @@
-# fontsy
+# syfont
 
 ## Project setup
 ```
