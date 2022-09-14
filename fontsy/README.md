@@ -1,4 +1,4 @@
-# fontvue
+# fontsy
 
 ## Project setup
 ```

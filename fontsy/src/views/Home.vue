@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome WebSoap, こんにちは!" />
   </div>
@@ -12,7 +10,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'Home',
+  name: 'HomeView',
   components: {
     HelloWorld
   }
