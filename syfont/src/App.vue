@@ -1,8 +1,8 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <!--
+    (1)APP.vue是主组件,页面入口文件,vue页面资源的首加载项,可理解为所有路由都是app.vue的子组件.
+    (2)构建SPA(单页应用)时,方便指定路由对应的组件,如视图层<router-view/>后,路由定义component:Foo.
+    -->
   <router-view/>
 </template>
 
@@ -13,18 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+  width: 100%;
+  height: 1000px;
 }
 </style>

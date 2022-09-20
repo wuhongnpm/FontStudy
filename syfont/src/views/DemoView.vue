@@ -17,5 +17,9 @@ export default {
 
 </script>
 <style scoped>
+    .about{
+        background-image: url('../assets/img/homeback_img.jpg');
+    }
+
     
 </style>
