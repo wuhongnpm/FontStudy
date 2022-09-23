@@ -16,7 +16,7 @@
 }
 
 .rainwatch {
-    background-image: url(../assets/cc1.jpg);
+    background-image: url(../assets/img/cc1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #86C166;
