@@ -9,6 +9,10 @@
 - Vuex 4
 - Element Plus
 
+## 本地运行
+
+建议使用当前 Node.js 的长期支持版本（LTS）。进入 `syfont` 目录后，安装依赖并启动开发服务器：
+
 ## Project setup
 ```
 npm install
