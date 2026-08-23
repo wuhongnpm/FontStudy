@@ -33,5 +33,13 @@ npm run build
 npm run lint
 ```
 
+## 常用命令
+
+| 命令 | 用途 |
+| --- | --- |
+| `npm run serve` | 启动本地开发服务器 |
+| `npm run build` | 生成生产构建产物 |
+| `npm run lint` | 检查并修复可自动修复的代码风格问题 |
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
